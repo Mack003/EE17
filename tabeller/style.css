@@ -2,16 +2,30 @@ body {
 
 }
 table {
-    background-color: aquamarine
+    background-color:#ffe37f;
+    padding: 10px;
+    border-spacing: 5px;
+    width: 900px
+    
+}
+caption {
+    background-color:#df5d5d;
+    color: #dfff00;
+    font-family: 'Lobster', cursive;
+    font-size: 86px;
+    padding: 30px;
 }
 tr {
-
+    font-family: 'Mukta', sans-serif;
 }
 th {
-background-color: blue
+background-color: #FF5722;
+padding: 10px;
 }
 td {
-background-color: #ffff
+background-color: #ffff;
+padding: 10px;
+text-align: center
 }
 img {
     width: 150px;
