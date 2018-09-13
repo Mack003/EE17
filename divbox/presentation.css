@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Playfair Display', serif;
+background: rgb(109, 120, 121);
+color: white;
+}
+div {
+    padding-left: 250px;
+    width: 600px;
+    height: 400px;
+    background: url("./bilder/eagle.jpg");
+    background-size: cover;
+    border-radius: 30px;
+    margin: 100px auto 0 auto;
+}
+h1 {
+font-size: 70px;
+text-shadow: 3px 3px 1px #000000;
+margin-top: 50px;
+}
+h2 {
+font-size: 25px;
+text-shadow: 3px 3px 1px #000000;
+margin-top: 40px;
+}
+h3 {
+font-size: 30px;
+text-shadow: 3px 3px 1px #000000;
+margin-top: 50px;
+}
