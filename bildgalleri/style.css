@@ -4,21 +4,35 @@
 html {
     box-sizing: border-box;
 }
+
 /* prettier-ignore */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
+
 /* prettier-ignore */
-body, h1, h2, h3, h4, h5, h6, p, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
     margin: 0;
     padding: 0;
 }
+
 /*sidans utseende*/
 body {
     background: url("./bilder/daggros.jpg");
     background-size: 5000px;
     background-attachment: fixed;
 }
+
 div.kontainer {
     background-color: #262440;
     width: 800px;
@@ -27,41 +41,52 @@ div.kontainer {
     margin: 30px auto;
     border-radius: 15px;
 }
+
 h1 {
     text-align: center;
     font-family: 'Courgette', cursive;
     font-size: 80px;
     text-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
+
 div.ros {
-    background-color: #726DBF;
+    background: linear-gradient(to bottom, #cb60b3 0%, #6f0d7a 50%, #a535a5 100%);
     font-family: 'Merriweather', serif;
     padding: 30px;
     border-radius: 10px;
     margin: 30px;
 }
-img {
-width: 400px;
-background: white;
-padding: 10px;
-border: 1px solid black;
-border-radius: 10px;
-box-shadow: 3px 3px 10px rgb(51, 50, 50);
-}
-p {
 
+img.ram {
+    width: 400px;
+    background: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(51, 50, 50);
 }
+
+p {}
+
 .vanster {
     float: left;
     margin-right: 20px
 }
+
 .hoger {
     float: right;
     margin-left: 20px;
 }
+
 .texthoger {
     text-align: right;
 }
 
-hr {clear: both;
-visibility: hidden;}
+hr {
+    clear: both;
+    visibility: hidden;
+}
+.badge {
+    border-radius: 0px;
+    padding: 0px;
+}
