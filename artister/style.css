@@ -64,6 +64,7 @@ h1 {
 h2 {
     font-family: 'Roboto Slab', serif;
     text-align: center;
+    margin: 10px 0 10px 0;
 }
 img {
     margin: auto;
