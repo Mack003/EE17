@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grunder i Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="easteregg">Grunder i Javascript</h1>
+    <p id="adress">Hemlig adress</p>
+    <p id="mobil">Hemlig mobil</p>
+
+    <button onclick="visaAdress()">Läs in adress</button>
+    <button onclick="visaMobil()">Läs in Mobil</button>
+    <p onclick="visaEasterEgg()">Schnope</p>
+    <script>
+        function visaAdress() {
+
+            /* Ansluta till p-elementet som jag vill ändra på */
+            var eleAdress = document.querySelector('#adress')
+
+            /* skriv texten inuti p-elememntet */
+            eleAdress.textContent = 'Bjulevägen 23';
+        }
+        function visaMobil() {
+
+            /* Ansluta till p-elementet som jag vill ändra på */
+            var eleMobil = document.querySelector('#mobil')
+
+            /* skriv texten inuti p-elememntet */
+            eleMobil.textContent = '073-517 16 59';
+        }
+               function visaEasterEgg() {
+
+            /* Ansluta till p-elementet som jag vill ändra på */
+            var eleEasterEgg = document.querySelector('#easteregg')
+
+            /* skriv texten inuti p-elememntet */
+            eleEasterEgg.textContent = '())::::::D';
+
+            /* Ändra stilen på h1-elementet */
+            eleEasterEgg.style.color = 'red';
+
+            /* Anslut till body-elementet */
+            var eleBody = document.querySelector('body');
+            /* Ändra bakgrunden till svart */
+            eleBody.style.backgroundColor = 'black';
+
+            /* Lägg till bakgrunsbild */
+            eleBody.style.backgroundImage = 'url("./bilder/giphy.gif")'
+            eleBody.style.backgroundSize = 'cover'
+
+            /* infoga en bild i sidan */
+            eleEasterEgg.insertAdjacentHTML('afterend', '<img src="./bilder/maxresdefault.jpg">,')
+        }
+    </script>
+</body>
+</html>

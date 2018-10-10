@@ -14,6 +14,16 @@
         function frageAlder() {
             var alder = prompt('Hur gammal är du?');
             console.log('Hej Marcus, din ålder är ' + alder);
+
+            if (alder < 15) {
+                alert('Be mamma om hjälp!');
+            } else {
+                if (alder < 20) {
+                    alert('Tråkigt! Be en kompis köpa ut!');
+                } else {
+                    alert('Yipee! Köp ut en öl till mig också!');
+                }
+            }
         }
 
         function frageadress() {
