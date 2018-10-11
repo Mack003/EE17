@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grunder</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+</head>
+
+<body>
+    <h1 class=" animated fadeIn">Grunder 4</h1>
+    <p class="animated fadeIn">Animationer</p>
+
+    <button onclick="fadeIn()">Fade in</button>
+    <button onclick="fadeOut()">Fade Out</button>
+
+    <h2>Volvo</h2>
+    <p class="text animated" style="width: 200px">
+        Jag hade köpt en Chevrolet från -63 och rev iväg på stan och skulle se
+        Om där fanns nåt att sätta staken i, nån liten brud med glöd och energi
+        Jag gasade på och flinade åt dom, som blev rätt sneda när jag körde om
+        Men plötsligt hörde jag ett jävla liv, det var nån tokig bonnafan som körde förbi
+    </p>
+    <button onclick="visaText()">klicka på egen risk!</button>
+
+    <script>
+        var elementText = document.querySelector('.text');
+        elementText.setAttribute('hidden', 'true')
+
+        function visaText() {
+            console.log('visaText');
+            
+            var elementText = document.querySelector('.text');
+            elementText.removeAttribute('hidden');
+            elementText.classList.add('fadeIn');
+        }
+
+        function fadeIn() {
+            var text = document.querySelector("h1");
+            elementText.classList.remove("fadeOut");
+            elementText.classList.add("fadeIn");
+        }
+
+        function fadeOut() {
+            var ele_h1 = document.querySelector("h1");
+            ele_h1.classList.remove("fadeIn");
+            ele_h1.classList.add("fadeOut");
+        }
+    </script>
+</body>
+</html>
