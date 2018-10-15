@@ -4,14 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Spel - Gissa Talet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.0/mini-default.min.css">
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Spel - Gissa Talet</h1>
-    <label>Gissa ett tal mellan 1 och 100.</label> <input id="gissning" type="text"><br>
-    <label>Svar</label><p id="svar"> </p>
-    <button onclick="gissa()">Gissa!</button>
-    <script src="gissa_tal.js"></script>
+    <div class="kontainer">
+        <h1>Spel - Gissa Talet</h1>
+        <label>Gissa ett tal mellan 1 och 100.</label> <input id="gissning" type="text"><br>
+        <div id="svar" class="animated">
+            <p>Resultat</p>
+        </div>
+        <button onclick="gissa()">Gissa!</button>
+        <script src="gissa_tal.js"></script>
+    </div>
 
 </body>
 </html>

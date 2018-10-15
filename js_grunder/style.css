@@ -1,18 +1,44 @@
-/* Enkel CSS-reset */
-html {
-    box-sizing: border-box;
+body {
+    background: rgb(48, 48, 119);
 }
-/* prettier-ignore */
-*, *:before, *:after {
-    box-sizing: inherit;
+.kontainer {
+    width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
 }
-/* prettier-ignore */
-body, h1, h2, h3, h4, h5, h6, p, ul {
-    margin: 0;
-    padding: 0;
+input {
+    width: 100px;
+    padding: 5px;
+    border-radius: 3px;
 }
 p {
-    width: 60px;
-    color: purple;
+    background: white;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: bold;
+}
+.hogt {
+    background: orange;
+}
+.lagt {
+    background: maroon;
+    color: white;
+}
+.ratt {
+    background: rgb(120, 120, 221);
+    color: white;
+    margin-top: 10px
+}
+.dum {
+    background: darkgreen;
+}
+button {
+    width: 150px;
+    background: rgb(68, 111, 192);
+    color: white;
+
 }
