@@ -1,0 +1,26 @@
+body {
+    background: #212121 url('bilder/emil-vilsek-377013-unsplash.jpg');
+    background-size: cover;
+}
+.kontainer {
+    color: white;
+    background: rgba(67, 67, 216, 0.678);
+    width: 800px;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 100px auto 100px;
+}
+label {
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+}
+input {}
+.svar {
+    color: black;
+    background: white;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+}
+button {}
