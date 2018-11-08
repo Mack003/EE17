@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+background: rgb(43, 42, 42);
+}
+.kontainer {
+    width: 800px;
+    margin: 40px auto 10px;
+    color: white
+}
+h1 {
+font-family: 'PT Serif', serif;
+font-size: 50px;
+}
+.yta {
+background-color: rgba(255, 255, 255, 0.055);
+height: 600px;
+display: grid;
+grid-template-columns: auto auto;
+justify-content: space-between;
+align-content: center;
+padding: 50px;
+
+}
+.fas {
+
+}
+.fa-angle-left {
+
+}
+.fa-angle-right {
+
+}
+i {
+    cursor: pointer;
+    font-size: 50px;
+    transition-duration: 1s;
+}
+i:hover {
+    color: rgb(158, 158, 158);
+}
