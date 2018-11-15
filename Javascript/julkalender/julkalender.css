@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: black;
+}
+.kontainer {
+    font-family: 'Dancing Script', cursive;
+    width: 800px;
+    margin: 30px auto;
+    background: rgb(139, 15, 40);
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+
+}
+h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.dag {
+    width: 80px;
+    height: 80px;
+    background: rgb(8, 83, 8);
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 20px; 
+    cursor: pointer;
+    transition-duration: 1s;
+
+}
+.dag:hover {
+    background: rgb(28, 146, 43);
+    box-shadow: 0 0 20px white;
+}
