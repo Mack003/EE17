@@ -2,12 +2,121 @@
 html {
     box-sizing: border-box;
 }
-/* prettier-ignore */
 *, *:before, *:after {
     box-sizing: inherit;
 }
-/* prettier-ignore */
 body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
+}
+
+body {
+    background: #222;
+}
+
+.kontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+header {
+    color: white;
+}
+
+header h1 {
+
+}
+
+header h2 {
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 10px 0;
+    background: gray;
+}
+
+nav li {
+    display: inline;
+    margin: 3px;
+    background: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav li a {
+
+}
+
+#search {
+    position: relative;
+    right: 1px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+    margin: 20px;
+}
+
+article {
+    background: #FFF;
+    color: #000;
+    padding: 20px;
+}
+
+h3 {
+
+}
+
+article p {
+    
+}
+
+article a {
+
+}
+
+article figure img {
+    width: 600px;
+}
+
+article figure figcaption {
+
+}
+
+aside {
+    background: #FFF;
+    color: #000;
+    padding: 20px;
+    height: 100%;;
+}
+
+aside section {
+    margin: 20px;
+}
+
+aside h4 {
+
+}
+
+aside ul {
+
+}
+
+aside li {
+
+}
+
+aside li a {
+
+}
+
+footer {
+    background: peachpuff;
+    color: #000;
+    padding: 20px;
 }
