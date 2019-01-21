@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Aleo|Roboto');
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -12,16 +13,18 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 body {
     background: #222;
+    font-family: 'Aleo', serif;
 }
 
 .kontainer {
-    max-width: 1200px;
+    max-width: 960px;
     margin: 0 auto;
+
 }
 
 
 header {
-    color: white;
+color: white;
 }
 
 header h1 {
@@ -31,21 +34,21 @@ header h1 {
 header h2 {
 padding: 0 0 10px;
 }
-
+nav {
+    grid-area: nav;
+}
 nav ul {
     list-style: none;
     margin: 10px 0;
     background: linear-gradient(to right, #adadad 0%,#6b696a 100%);
     border-radius: 10px;
-    padding: 0 10px;
+    padding: 8px 10px;
 }
 
 nav li {
     display: inline;
-    margin: 3px;
-    background: teal;
-    padding: 10px;
-    border-radius: 10px;
+    background: rgba(0, 128, 128, 0);
+    padding: 9.5px;
     transition: background 0.5s ease-out;
 }
 
@@ -53,7 +56,7 @@ nav li a {
 
 }
 nav li:hover {
-background: rgb(2, 82, 82);
+background: rgb(99, 102, 102);
 }
 
 #search {
@@ -62,10 +65,15 @@ background: rgb(2, 82, 82);
 }
 
 main {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 50px;
+    grid-area: innehall;
+    font-family: 'Roboto', sans-serif;
     margin: 30px 20px 0px 20px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 650px 280px;
+    justify-content: space-between;
+    grid-template-areas:
+    "innehall sidebar";
 }
 
 article {
@@ -79,7 +87,7 @@ article {
 .last {
     padding: 20px 20px 40px 20px;
     margin-bottom: 0;
-    border-radius: 0:
+    border-radius: 0;
 }
 
 h3 {
@@ -95,7 +103,7 @@ color: teal;
 }
 
 article figure img {
-    width: 600px;
+    width: 550px;
     border: black 3px solid;
     border-radius: 5px;
 }
@@ -105,7 +113,7 @@ article figure figcaption {
 }
 
 aside {
-    
+    grid-area: sidebar;
     color: #000;
     padding: 20px;
     height: 100%;;
@@ -119,7 +127,7 @@ aside section {
 }
 
 aside h4 {
-
+font-size: 20px;
 }
 
 aside ul {
@@ -128,6 +136,7 @@ aside ul {
 
 aside li {
 padding: 5px;
+list-style: none;
 }
 
 aside li a {
