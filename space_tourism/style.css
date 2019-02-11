@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Space+Mono');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, :after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background: #EEE;
+}
+.container {
+background: white;
+width: 900px;
+margin: 0 auto;
+box-shadow: 0 0 30px #8f8f8f;
+}
+img {
+    width: 600px;
+    border: black 1px solid;
+}
+header {
+text-align: center;
+padding: 10px 0;
+}
+header h1 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 100;
+    font-size: 80px;
+}
+header nav {
+
+}
+header ul {
+
+}
+header li {
+display: inline;
+padding: 20px;
+font-size: 20px;
+}
+header li a {
+color: #AC5356;
+text-decoration: none;
+
+}
+header li a:hover {
+border-bottom: 2px solid black;
+}
+main {
+    padding: 20px;
+}
+main h2 {
+    font-family: 'Open Sans', sans-serif;s
+}
+main figure img{
+
+}
+main figure figcaption {
+
+}
+main p{
+    font-family: 'Montserrat', sans-serif;
+}
+footer {
+
+}
+footer p {
+    font-family: 'Montserrat', sans-serif;
+}
