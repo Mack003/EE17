@@ -28,6 +28,6 @@ function start() {
         var avstand = hastighet * tid / 60;
 
         /* Skriv ut resultatet tex 'Körsträckan blir 57 km.' */
-        elementSvar.textContent = 'Körsträcan blir ' + avstand + ' km.';
+        elementSvar.textContent = 'Körsträckan blir ' + avstand + ' km.';
     }
 }

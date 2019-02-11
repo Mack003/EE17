@@ -1,0 +1,16 @@
+body {
+    background: #212121;
+    background-size: 2000px;
+}
+.kontainer {
+width: 500px;
+padding: 20px;
+margin: 50px auto;
+background: rgb(245, 231, 170);
+}
+input {
+padding: 10px;
+}
+button {
+padding: 10px;
+}

@@ -13,15 +13,11 @@ function start() {
     function raknaNed() {
         let tal = Number(eTalet.value);
 
-        let ned = tal - 1;
-
-        eTalet.value = ned
+        eTalet.value = tal - 1
     }
     function raknaUpp() {
         let tal = Number(eTalet.value);
 
-        let upp = tal + 1;
-
-        eTalet.value = upp;
+        eTalet.value = tal + 1;;
     }
 }

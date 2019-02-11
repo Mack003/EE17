@@ -76,4 +76,7 @@ img {
 p {
     font-family: 'Roboto Slab', serif;
 }
-.sidfot {}
+.sidfot {
+    margin: 30px;
+    color: gray;
+}

@@ -1,61 +1,71 @@
-@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
 }
-/* prettier-ignore */
 *, *:before, *:after {
     box-sizing: inherit;
 }
-/* prettier-ignore */
 body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background: rgb(63, 63, 63);
+    background: #222;
 }
 .kontainer {
-    background: teal;
-    width: 900px;
-    margin: 20px auto 40px;
-    padding: 50px;
-    border-radius: 10px;
+    width: 600px;
     text-align: center;
-    font-family: 'Arvo', serif;
+    margin: 20px auto;
+    padding: 30px;
+    background: #aab2ca;
+    color: #222;
+    font-family: 'Playfair Display', serif;
+    border-radius: 3px;
 }
 h1 {
-    color: white;
+    font-size: 50px;
 }
 .bild {
-    margin: auto;
-    width: 600px;
+    height: 450px;
+    padding: 20px 50px;
+    margin: 0 auto;
 }
 .bild img {
-    border: 10px solid gray;
-    border-radius: 5px;
-    width: 100%;
-    margin: auto;
+    height: 85%;
+    border: 10px solid #FFF;
+    border-radius: 3px;
 }
 .bild p {
-    width: 500px;
-    background: white;
-    padding: 6px 3px;
-    border-radius: 5px;
-    margin: 10px auto;
-
+    background: #FFF;
+    padding: 7px;
+    border-radius: 3px;
 }
 button {
-    padding: 10px 5px;
-    background: rgb(107, 107, 255);
-    color: white;
-    border-radius: 10px;
     border: none;
+    padding: 10px;
+    background: green;
+    border-radius: 5px;
+    color: #FFF;
 }
 button:hover {
-    background: rgb(59, 59, 209);
+    background: greenyellow;
 }
-button:active {
-    background: rgb(145, 145, 238);
+.knapp {
+    width:50px;
+    height:50px;
+    margin: 0 10px;
+    border-radius: 3px;
+    border: 1px solid #FFF;
+    overflow: hidden;
+    display: inline-block;
+}
+.miniatyr {
+    width: 50px;
+    cursor: pointer;
+}
+.miniatyr:hover {
+    filter: opacity(50%);
 }

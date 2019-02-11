@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Timer</title>
+    <link rel="stylesheet" href="http://youtube.local/assets/dcode.css">
+    <link rel="shortcut icon" href="http://youtube.local/assets/favicon.ico">
+</head>
+<body>
+    <h1>setTimeout() - Jaascript - dcode</h1>
+    <button id="show-message">Show Message</button>
+    <button id="cancel-message">Cancel Message</button>
+    
+    <script type="text/javascript">
+    const btnShowMsg = document.getElementById("show-message");
+    const btnCancelMsg = document.getElementById("cancel-message");
+    let msgTimeout = null;
+
+    btnShowMsg.addEventListener("click", function () {
+        msgTimeout = setTimeout(function () {
+            alert("bla bla bla");
+        }, 2000);
+    });
+
+    btnCancelMsg.addEventListener("click", fucntion () {
+    clearTimeout(msgTimeout);
+    });
+    </script>
+</body>
+</html>

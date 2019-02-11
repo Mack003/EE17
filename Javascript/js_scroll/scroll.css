@@ -1,0 +1,30 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding-top: 15px;
+}
+.scroll-indikator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color: white;
+    border-bottom: 1px solid #dddddd;
+}
+.scroll-indikator-fyll {
+width: 50%;
+height: 100%;
+background-color: teal;
+}
