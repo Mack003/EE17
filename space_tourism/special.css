@@ -3,3 +3,58 @@
     color: white;
     text-shadow: 0 0 10px #504d4d;
 }
+.jupiter main {
+    background: #8470A5;
+    color: white;
+    text-shadow: 0 0 10px #504d4d;
+
+}
+.titan main {
+    background: #A36D47;
+    color: white;
+    text-shadow: 0 0 10px #504d4d;
+
+}
+.venus main {
+    background: #F8D6BD;
+    color: black;
+}
+.wanderer video {
+    position: fixed;
+    z-index: -100;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+.wanderer .container {
+    background: none;
+    box-shadow: none;
+    color: white;
+}
+.wanderer blockquote {
+    color: rgba(255, 255, 255, 0.226);
+    width: 820px;
+    text-align: center;
+    font-size: 35px;
+    transition-duration: 1s;
+
+}
+.wanderer blockquote:hover {
+color: white;
+text-shadow: 1px 1px 10px #666666
+}
+.wanderer footer {
+    margin-bottom: auto;
+}
+.wanderer header li a:hover {
+    border-bottom: 2px solid white;
+}
+.wanderer header li a {
+    color: white;
+    font-size: 35px;
+}
