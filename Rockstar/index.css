@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39|Press+Start+2P|ZCOOL+KuaiLe');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidans utseende */
+
+body {
+
+}
+.fast-bakgrund img {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -999;
+}
+.kontainer {
+    width: 1000px;
+    margin: auto;
+}
+header {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.384);
+    border-radius: 0 0 10px 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+header h1 {
+    font-weight: 100;
+    font-size: 80px;
+}
+header nav {}
+header ul {}
+header li {
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+}
+header li a {
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+
+}
+header li a:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+main {
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+.main {
+
+}
+h1{
+text-align: center;
+color: white;
+font-size: 100px;
+margin-top: 25%;
+}
+p {
+text-align: center;
+color: white;
+font-size: 100px;
+margin-top: 5px;
+font-family: 'Libre Barcode 39', cursive;
+}
+footer {
+    margin-top: 38vh;
+}
