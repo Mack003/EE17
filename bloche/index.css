@@ -75,7 +75,7 @@ h1 {
     text-align: center;
     color: white;
     font-size: 100px;
-    margin-top: 25%;
+    margin-top: 20%;
 }
 .main p {
     text-align: center;
@@ -91,9 +91,10 @@ h1 {
     color: white;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
     font-family: 'Libre Franklin', sans-serif;
+    margin-bottom: 50px;
+    padding-top: 100px;
 }
 .artister {
     margin-top: 45vh;
@@ -107,17 +108,28 @@ h1 {
 .bot img {
     width: 350px;
 }
+.bot iframe {
+    margin: 20px;
+    width: 800px;
+}
 .artister img {
     width: 350px;
 }
 .bot p {
-    margin-top: 65px;
+
+}
+input {
+    width: 30px;
+    padding: 10px;
+}
+.bot button {
+    margin-top: 80px;
+    padding: 10px;
 }
 .artister p {
     margin-top: 65px;
 }
 .img2 {
-    margin: 65px 0;
     border-radius: 10px;
 }
 .bot a {
@@ -131,4 +143,18 @@ h1 {
 .bot a:hover {
     color: white;
     background-color: rgb(82, 82, 82);
+}
+footer {
+    background: rgb(116, 117, 117);
+    width: 100%;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    color: black;
+    font-family: 'Libre Franklin', sans-serif;
+    
+}
+footer .first {
+    margin-left: 50px;
 }
